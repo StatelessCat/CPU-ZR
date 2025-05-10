@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private final Runnable updater = new Runnable() {
         @Override public void run() {
             updateTemperatures();
-            ui.postDelayed(this, 1_000);
+            ui.postDelayed(this, 125);
         }
     };
 
